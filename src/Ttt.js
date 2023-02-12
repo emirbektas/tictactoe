@@ -30,7 +30,7 @@ const Ttt = () => {
           squares[pattern[1]] === "" ||
           squares[pattern[2]] === ""
         ) {
-          // do nothing
+          // 
         } else if (
           squares[pattern[0]] === squares[pattern[1]] &&
           squares[pattern[1]] === squares[pattern[2]]
